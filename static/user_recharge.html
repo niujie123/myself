@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>充值提现_用户中心_萤火虫理财</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link type="text/css" rel="stylesheet" href="css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/module.css" />
+    <link type="text/css" rel="stylesheet" href="css/unit.css" />
+    <link type="text/css" rel="stylesheet" href="css/function.css" />
+    <link type="text/css" rel="stylesheet" href="css/grid.css" />
+</head>
+<body>
+
+<!-- 头部 -->
+<div id="header" class="header f-cb">
+    <div class="header-top">
+        <div class="g-in f-cb">
+            <div class="f-fl"></div>
+            <div class="nav-login f-fr">
+                <!-- 未登录 -->
+                <!-- <a class="login-link" href="#">登录</a><a class="reg-link" href="#">注册</a> -->
+                <!-- end 未登录 -->
+
+                <!-- 已登录 -->
+                您好，<a href="#" class="user">182****3788</a><a href="#">[退出登录]</a>
+                <!-- end 已登录 -->
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="g-in f-cb">
+            <div class="header-logo f-fl">
+                <a href="#"><img src="images/logo.png" width="270" height="75" alt="萤火虫理财" /></a>
+            </div>
+            <div class="header-nav f-fr">
+                <ul class="f-cb">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我要理财</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a class="last" href="#">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end头部 -->
+
+<!-- 用户中心-充值提现 -->
+<div id="pg-user">
+    <div class="g-in f-cb">
+        <div class="g-sd2 sidebar">
+            <!-- 个人信息 -->
+            <div class="profile">
+                <div class="pf-hd">
+                    <img src="images/user_head.png" width="95" height="95" />
+                </div>
+                <div class="pf-name">下午好，张超</div>
+                <div class="pf-identification f-cb">
+                    <span class="f-fl">认证</span>
+                    <a id="icon-email" class="verify-icon active" title="邮箱认证"><span class="icon-email"></span></a>
+                    <a id="icon-profile" class="verify-icon" title="身份证认证"><span class="icon-profile"></span></a>
+                    <a id="icon-mobile" class="verify-icon last" title="手机认证"><span class="icon-mobile"></span></a>
+                </div>
+                <div class="pf-level f-cb">
+                    <span class="f-fl">安全级别</span>&nbsp;&nbsp;
+                    <span>中</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">管理</a>
+                </div>
+            </div>
+            <!-- end个人信息 -->
+
+            <div class="user-menu">
+                <dl>
+                    <dt>我的账户</dt>
+                    <dd>
+                        <div><a class="menu-icon icon-account" href="#">账户总览</a></div>
+                        <div><a class="menu-icon icon-safety" href="#">安全中心</a></div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>我的投资</dt>
+                    <dd>
+                        <div><a class="menu-icon icon-Investment" href="#">投资记录</a></div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>账户管理</dt>
+                    <dd>
+                        <div><a class="menu-icon active icon-recharge" href="#">充值提现</a></div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>咨询中心</dt>
+                    <dd>
+                        <div><a class="menu-icon icon-notice" href="#">系统公告</a></div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- 充值提现 -->
+        <div class="g-mn2 recharge f-w769">
+            <div class="recharge-box">
+                <div class="title f-bbdc">充值提现</div>
+                <div class="content">
+                    <div class="summary-section f-cb">
+                        <div class="tip-wrapper f-fl">
+                            <div class="header-label">温馨提示</div>
+                            <div>
+                                <ul class="my-account-tip">
+                                    <li><p>1.在你申请提现前，请先在页面下方或"基本信息"账户信息页面绑定银行卡</p></li>
+                                    <li><p>2.收到你的提现请求后，萤火虫理财将在1个工作日（双休日或法定节假日顺延）处理你的提现申请，请你注意查收</p></li>
+                                    <li><p>3.为保障你的账户资金安全，申请提现时，你选择的银行卡开户名必须与你萤火虫理财账户实名认证一致，否则提现申请将不予受理。</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="status-wrapper">
+                            <div class="textTop">
+                                <div><span class="f-fr red">0.00元</span>可用余额</div>
+                                <div><span class="f-fr red">0.00元</span>可提现金额</div>
+                            </div>
+                            <div class="buttonBottom">
+                                <a href="javascript:void(0);" class="u-btn u-btn-c1 f-pdlr18" id="withdrawals"><em class="tixian-icon"></em>提现</a>
+                                <a href="#" class="u-btn u-btn-c1 f-pdlr18"><em class="chongzhi-icon"></em>充值</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summary-filter">
+                        <div class="f-cb f-mgb10">
+                            <span class="f-fl">交易时间</span>
+                            <a href="#" class="active">所有</a>
+                            <a href="#">今天</a>
+                            <a href="#">最近一周</a>
+                            <a href="#">一个月</a>
+                            <a href="#">三个月</a>
+                            <a href="#">六个月</a>
+                        </div>
+                        <div class="f-cb">
+                            <span class="f-fl">交易类型</span>
+                            <a href="#" class="active">全部</a>
+                            <a href="#">充值</a>
+                            <a href="#">提现</a>
+                        </div>
+                    </div>
+
+                    <div class="transaction-list">
+                        <table class="f-w-auto">
+                            <tr>
+                                <th>交易流水号<em class="arrow-icon"></em></th>
+                                <th>交易类型<em class="arrow-icon"></em></th>
+                                <th>交易金额<em class="arrow-icon"></em></th>
+                                <th>账户余额<em class="arrow-icon"></em></th>
+                                <th>交易状态<em class="arrow-icon"></em></th>
+                                <th>交易时间<em class="arrow-icon"></em></th>
+                            </tr>
+                            <tr>
+                                <td>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+
+                        <div class="pagination">
+                            <a href="#">上一页</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <span class="current">4</span>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">...</a>
+                            <a href="#">下一页</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end充值提现 -->
+    </div>
+</div>
+<!-- end 用户中心-充值提现 -->
+
+<!-- 蒙版-->
+<div id="mask" class="masking"></div>
+<!-- /蒙版-->
+
+<!-- 提现弹出层 -->
+<div id="withdrawals-layer" class="dialog" style="width: 550px;">
+    <div class="titlebar"><a class="close" href="javascript:void(0);">关闭</a><h1>实名认证</h1></div>
+    <div class="withdrawals-box">
+        <div class="withdrawals-msg">
+            <p>为了您的账户安全，从之前请填写认证信息。 </p>
+            <p>并请确保所填写的姓名与曲线银行卡的开户名一致。</p>
+        </div>
+        <div class="m-form2">
+            <form id="withdrawals-form">
+                <div class="form-item">
+                    <label class="lab">真实姓名：</label>
+                    <div class="ipt">
+                        <input type="text" class="u-ipt2 u-ipt2-w355 u-ipt2-h42" id="real-name" name="real_name"/>
+                        <div class="vd-error">
+                            <em class="vd-arrow"></em>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="lab">身份证号：</label>
+                    <div class="ipt">
+                        <input type="text" class="u-ipt2 u-ipt2-w355 u-ipt2-h42" name="id_num"/>
+                        <div class="vd-error">
+                            <em class="vd-arrow"></em>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="lab"></label>
+                    <div class="ipt">
+                        <input type="submit" class="u-btn u-btn-c1 u-btn-w347 u-btn-h51" value="立即验证，进行充值">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- /提现弹出层 -->
+
+<!-- 底部 -->
+<div id="footer" class="footer">
+    <div class="g-in">
+        <div class="link">
+            <span>友情链接</span>
+            <a href="#">招商银行</a><a href="#">平安银行</a><a href="#">银客P2P理财</a><a href="#">招商银行</a><a href="#">平安银行</a><a href="#">银客P2P理财</a>
+        </div>
+        <div class="tel"><span>客户服务</span> <span>400-018-0101</span></div>
+        <div class="copyright">©2015 萤火虫金融&nbsp;&nbsp;&nbsp;&nbsp;京ICP备14028311&nbsp;&nbsp;&nbsp;&nbsp;北京阿拉丁控股有限责任公司</div>
+    </div>
+</div>
+<!-- end 底部 -->
+
+<link type="text/css" rel="stylesheet" href="css/user/user.css" />
+<link type="text/css" rel="stylesheet" href="css/lib/tip-twitter.css" />
+<link type="text/css" rel="stylesheet" href="js/lib/layer/skin/layer.css">
+<link type="text/css" rel="stylesheet" href="js/lib/layer/skin/myskin.css">
+<script data-main="js/main" src="js/require.js"></script>
+<script>
+    require(['app/user']);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* 将页面分割为几个大块，通常有头部、主体、主栏、侧栏、尾部等！ */
+
+/* 全站公用外层块 */
+.g-in{width: 960px; margin: 0 auto}
+
+/* 两列右侧自适应布局 */
+.g-bd1{margin:0 0 10px;}
+.g-sd1{position:relative;float:left;width:132px;}
+.g-mn1{float:right;}
+.g-mn1c{margin-left:200px;}
+
+/* 两列右侧自适应布局2 */
+.g-sd2{position:relative;float:left;width:191px;}
+.g-mn2{float:left;margin-left: 10px;}

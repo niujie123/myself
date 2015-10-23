@@ -1,0 +1,42 @@
+/*
+* 单页样式
+*/
+
+/* 了解萤火虫 */
+#banner{
+    height: 356px;
+    background: url("../../images/knowyhc_banner.jpg") no-repeat center;
+}
+#banner02{
+    height: 357px;
+    background: url("../../images/contactus_banner.jpg") no-repeat center;
+}
+#pg-knowyhc{
+    margin-top: 25px;
+}
+#pg-knowyhc .tit{
+    height: 44px;
+    line-height: 44px;
+    background: #f7f8f8;
+    padding-left: 20px;
+    font-size: 18px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+#pg-knowyhc .content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: #898989;
+    line-height: 25px;
+}
+#pg-knowyhc .content img{
+    margin-left: 15px;
+}
+#pg-knowyhc .content02{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 110px;
+    color: #3a3a3a;
+    line-height: 30px;
+}

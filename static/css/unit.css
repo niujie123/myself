@@ -1,0 +1,164 @@
+/* 通常是一个不可再分的较为小巧的个体，通常被重复用于各种模块中！比如按钮、输入框、loading、图标等！ */
+input{
+    border: none;
+}
+/* 通用自定义按钮 - 默认橙色 */
+.u-btn{display: inline-block; border-radius: 4px; font-size: 16px; height: 32px; line-height:32px; text-align:center;vertical-align:middle;cursor:pointer; border-bottom: 2px solid #c86307;}
+.u-btn,.u-btn:hover{color:#fff;text-decoration:none;}
+.u-btn4{display: inline-block; border-radius: 4px; font-size: 16px; height: 32px; line-height:32px; text-align:center;vertical-align:middle;cursor:pointer; border-bottom: 2px solid #bc3426;}
+.u-btn4,.u-btn4:hover{color:#fff;text-decoration:none;}
+.u-btn5{display: inline-block; border-radius: 4px; font-size: 16px; height: 32px; line-height:32px; text-align:center;vertical-align:middle;cursor:pointer; border-bottom: 2px solid #1d6ea0;}
+.u-btn5,.u-btn5:hover{color:#fff;text-decoration:none;}
+.u-btn9{display: inline-block; border-radius: 4px; font-size: 16px; height: 32px; line-height:32px; text-align:center;vertical-align:middle;cursor:pointer; border-bottom: 2px solid #332d6b;}
+.u-btn9,.u-btn9:hover{color:#fff;text-decoration:none;}
+.u-btngray{display: inline-block; border-radius: 4px; font-size: 16px; height: 32px; line-height:32px; text-align:center;vertical-align:middle;cursor:pointer; border-bottom: 2px solid #5c5c5c;}
+.u-btngray,.u-btn9:hover{color:#fff;text-decoration:none;}
+
+/* 较大 */
+.u-btn-lg{padding:0 15px;height:36px;line-height:36px;font-size:18px;}
+.u-btn-lg .btnsel{border-width:5px 5px 0;}
+/* 较小 */
+.u-btn-sm{padding:0 10px;height:22px;line-height:22px;}
+.u-btn-sm114{width:145px;}
+.u-btn-h42{height: 42px}
+.u-btn-h40{height: 40px; line-height: 40px}
+.u-btn-w132{width: 132px}
+.u-btn-w62{width: 62px}
+.u-btn-w96{width: 96px}
+.u-btn-w72{width: 72px}
+.u-btn-w72{width: 72px}
+.u-btn-h27{height: 27px; line-height: 27px}
+.u-btn-w103{width: 103px}
+.u-btn-h24{height: 24px;line-height: 24px}
+.u-btn-w150{width: 150px;}
+.u-btn-w200{width: 200px}
+.u-btn-w250{width: 250px}
+.u-btn-w347{width: 347px}
+.u-btn-h51{height: 51px;line-height: 51px}
+.u-btn-w80{width: 80px}
+.u-btn-h35{height: 35px;line-height: 35px}
+.u-btn-w40{width: 40px}
+.u-btn-h20{height: 20px;line-height: 20px;font-size: 14px;}
+.u-btn-h30{height: 30px;line-height: 30px;font-size: 16px;}
+/* 自适应 */
+.u-btn-auto{width: 100%}
+
+/* 橙色 */
+.u-btn-c1{background-color: #ff8603}
+.u-btn-c1:hover,.u-btn-c1:focus{background:#dc620b;}
+/* 红--首页 */
+.u-btn-c4{background-color: #f54534}
+.u-btn-c4:hover,.u-btn-c4:focus{background:#cf3627;}
+/* 紫--首页 */
+.u-btn-c9{background-color: #564cb7}
+.u-btn-c9:hover,.u-btn-c9:focus{background:#483f9a;}
+/* 蓝色--首页 */
+.u-btn-c5{background-color: #3d9fe1}
+.u-btn-c5:hover,.u-btn-c5:focus{background:#238bcb;}
+
+/* 灰色 */
+.u-btn-c2{background-color: #c9caca}
+.u-btn-c2:hover,.u-btn-c2:focus{background:#c9caca;}
+
+/* 按钮风格 */
+.u-btn-style2{
+    background: #ffffff;
+    border: 1px solid #ff8603;
+    color: #000000;
+}
+.u-btn-style555{
+margin-top: -2px;
+}
+.u-btn-style2:hover{
+    background: #ffffff;
+    border: 1px solid #ff8603;
+    color: #000000;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* 文本输入框 */
+.u-ipt{width:256px; border-radius:5px; padding:11px 5px 11px 5px;height:17px;border:1px solid #c9c9c9;line-height:17px;font-size:14px;color:#898989;background:#fff;}
+.u-ipt2{
+    width:318px;
+    padding:6px 5px 6px 5px;
+    height:20px;
+    border:1px solid #b5b5b5;
+    line-height:17px;
+    font-size:14px;
+    background:#fff;
+    -moz-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    -webkit-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+}
+.u-ipt2:focus{
+    border: 1px solid #ff8603;
+    background: #eeeeee;
+}
+
+.u-ipt2.error,.u-ipt2.error:focus {
+    border: 1px solid #e30a20;
+    background: none;
+}
+
+/* 文本输入框-窄 */
+.u-ipt-w110{width:110px;}
+.u-ipt-w180{width:180px;}
+.u-ipt-w198{width:190px;}
+.u-ipt-w140{width: 140px;}
+.u-ipt-w210{width: 210px;}
+
+.u-ipt2-w355{width: 355px}
+.u-ipt2-h42{padding-top: 10px;padding-bottom: 10px}
+/* 文本输入框-出错 */
+.u-ipt-err{border-color:#c00 #e00 #e00;}
+/* 文本输入框 - panddin-left */
+.u-ipt-pl30{
+    padding-left: 30px;
+}
+.u-ipt-ptb7{
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+/*error*/
+.u-ipt.error{
+    border: 1px solid #e30a20;
+}
+/*于潇川519添加银行卡按钮*/
+.u-btn-p22{padding:0 22px;}
+.u-btn-p8{padding:0 8px;}
+.u-ipt2-w230{
+    width:230px;
+}
+/* 距左距离 */
+.u-btn-ml50{
+    margin-left: 50px;
+}
+/* 距上距离 */
+.u-btn-mt50{
+    margin-top: 40px;
+}
+/* 距下距离 */
+.u-btn-mb10{
+    margin-bottom: 10px;
+}
+/* 距下内距 */
+.u-btn-mb10{
+    margin-bottom: 10px;
+}
+/* 字体白色 */
+.text-fff{
+    color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

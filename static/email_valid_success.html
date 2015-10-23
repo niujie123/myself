@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>邮箱验证_用户中心_萤火虫理财</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link type="text/css" rel="stylesheet" href="css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/module.css" />
+    <link type="text/css" rel="stylesheet" href="css/unit.css" />
+    <link type="text/css" rel="stylesheet" href="css/function.css" />
+    <link type="text/css" rel="stylesheet" href="css/grid.css" />
+</head>
+<body>
+
+<!-- 头部 -->
+<div id="header" class="header f-cb">
+    <div class="header-top">
+        <div class="g-in f-cb">
+            <div class="f-fl"></div>
+            <div class="nav-login f-fr">
+                <!-- 未登录 -->
+                <!-- <a class="login-link" href="#">登录</a><a class="reg-link" href="#">注册</a> -->
+                <!-- end 未登录 -->
+
+                <!-- 已登录 -->
+                您好，<a href="#" class="user">182****3788</a><a href="#">[退出登录]</a>
+                <!-- end 已登录 -->
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="g-in f-cb">
+            <div class="header-logo f-fl">
+                <a href="#"><img src="images/logo.png" width="270" height="75" alt="萤火虫理财" /></a>
+            </div>
+            <div class="header-nav f-fr">
+                <ul class="f-cb">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我要理财</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a class="last" href="#">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end头部 -->
+
+<!-- 用户中心-邮箱验证成功-->
+<div id="pg-user">
+    <div class="g-in f-cb">
+        <div class="email_valid_success">
+            <div class="success-msg">
+                <p class="msg1"><em class="success-msg-icon icon3"></em>您的邮箱已经验证！</p>
+                <p class="msg2">页面将在<i id="sec">5</i>秒后自动跳转，如果不想等待请点击<a href="#" id="aa">这里</a>跳转</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end 用户中心-邮箱验证成功 -->
+
+<!-- 底部 -->
+<div id="footer" class="footer">
+    <div class="g-in">
+        <div class="link">
+            <span>友情链接</span>
+            <a href="#">招商银行</a><a href="#">平安银行</a><a href="#">银客P2P理财</a><a href="#">招商银行</a><a href="#">平安银行</a><a href="#">银客P2P理财</a>
+        </div>
+        <div class="tel"><span>客户服务</span> <span>400-018-0101</span></div>
+        <div class="copyright">©2015 萤火虫金融&nbsp;&nbsp;&nbsp;&nbsp;京ICP备14028311&nbsp;&nbsp;&nbsp;&nbsp;北京阿拉丁控股有限责任公司</div>
+    </div>
+</div>
+<!-- end 底部 -->
+
+<link type="text/css" rel="stylesheet" href="css/user/user.css" />
+<link type="text/css" rel="stylesheet" href="css/lib/tip-twitter.css" />
+
+<script type="text/javascript" src="js/lib/jquery-1.8.3.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //setTimeout("lazyGo()", 1000);
+    })
+    //倒计时跳转
+    function lazyGo(){
+        var sec = $("#sec").text();
+        $("#sec").text(--sec);
+        if (sec > 0){
+            setTimeout("lazyGo()", 1000);
+        }else{
+            window.location.href = "https://www.baidu.com/";
+        }
+    }
+</script>
+
+</body>
+</html>

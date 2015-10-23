@@ -1,0 +1,45 @@
+/*!
+ 
+ @Name: 自定义风格
+ @Author: 阿拉丁
+ 
+ */
+
+.layui-layer{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow:none;
+}
+.layui-layer-title{
+    background: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.layui-layer-setwin .layui-layer-close1{
+    background: url("../../../../images/bankcard/close_small.png") no-repeat 0 5px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+}
+.layui-layer-setwin .layui-layer-close1:hover{
+    background: url("../../../../images/bankcard/close_small_hover.png") no-repeat 0 5px;
+}
+.layui-layer-setwin{
+    top: 5px;
+    right: 18px;
+}
+
+/* 提现弹出框 */
+.withdrawals-box .withdrawals-msg{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.withdrawals-box .withdrawals-msg p{
+    padding-left: 20px;
+    font-size: 12px;
+    color: #595757;
+}
+.withdrawals-box .m-form2 .form-item .lab{
+    width: 100px;
+}

@@ -1,0 +1,52 @@
+/* bank_select */
+.select-banklist { overflow:hidden; zoom:1;}
+.select-banklist li { float:left;}
+.select-banklist li input {margin-top:12px; float:left; width:15px; overflow:hidden }
+.select-banklist label { float:left; cursor:pointer }
+.select_obank { color:#b20000 }
+.select-banklist .btn_wrap { border-top:1px dashed #ccc; padding:15px 0 0; margin-top:15px }
+
+/*bank_logo*/
+.icbc, .merchants, .minsheng, .bea, .china_citic, .guangfa, .construction, .spd, .post, .everbright, .agricultural, .china, .bohai, .communications, .industrial, .huaxia, .jiangsu, .hangzhou, .gongzhong, .shanghai,.unionpay, .hsb, .pingan, .pab, .bjb, .dzb, .dyb, .gzb, .hkb, .jcb, .nbb, .sdb, .wzb, .ydb, .zhb, .srcb { background: url(../../images/combobank.png) no-repeat; display:inline-block; width:126px; height:36px; font-size:0; line-height:0; vertical-align:middle; overflow:hidden;zoom:1; border:1px solid #d7d7d7}
+.bank_cur{border:1px solid #f60}
+.icbc{ background-position:0 -648px}/*工商*/
+.merchants{background-position:0 -324px}/*招商*/
+.minsheng{background-position:0 -360px}/*民生*/
+.bea{background-position:0 -120px}/*东亚*/
+.china_citic{background-position:0 -288px}/*中信*/
+.guangfa{background-position:0 -540px}/*广东发展*/
+.construction{background-position:0 -180px}/*建设*/
+.spd{background-position:0 -1008px}/*浦东发展*/
+.nbb{background-position:0 -792px}/*宁波*/
+.everbright{background-position:0 -216px}/*光大*/
+.agricultural{background-position:0 0}/*农业*/
+.china{background-position:0 -72px}/*中国*/
+.bjb{background-position:0 -36px}/*北京*/
+.communications{background-position:0 -396px}/*交通*/
+.industrial{background-position:0 -252px}/*兴业*/
+.huaxia{background-position:0 -576px}/*华夏*/
+.jiangsu{background-position:0 -720px}/*江苏*/
+.hangzhou{background-position:0 -612px}/*杭州*/
+.gongzhong{background-position:0 -760px}/*公众城市一卡通*/
+.shanghai{background-position:0 -936px}/*上海*/
+.hsb{background-position:0 -840px}/*徽商*/
+.pingan{background-position:0 -972px}/*平安*/
+.unionpay{background-position:0 -1188px}/*银联*/
+.bohai{background-position:0 -108px}/*渤海*/
+.dzb{background-position:0 -1000px}/*德州*/
+.jcb{background-position:0 -1160px}/*晋城*/
+.post{background-position:0 -900px}/*中国邮政*/
+.sdb{background-position:0 -1240px}/*顺德农商*/
+.wzb{background-position:0 -1116px}/*温州*/
+
+.hkbea{background-position:0 -1000px}/*东亚银行*/
+.njcb{background-position:0 -1080px}/*南京银行*/
+.bocd{background-position:0 -1120px}/*成都银行*/
+.shrcb{background-position:0 -1239px}/*上海农村商业银行*/
+.gnxs{background-position:0 -1160px}/*广州农信社*/
+.gzcb{background-position:0 -1080px}/*广州银行*/
+.hkbchina{background-position:0 -1120px}/*汉口银行*/
+.sxjs{background-position:0 -1240px}/*晋商银行*/
+.zhnx{background-position:0 -1361px}/*珠海农信社*/
+.ydxh{background-position:0 -1321px}/*尧都信用社*/
+.sde{background-position:0 -1361px}/*顺德农信社*/

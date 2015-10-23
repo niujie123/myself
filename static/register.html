@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册账户_萤火虫理财</title>
+
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link type="text/css" rel="stylesheet" href="css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/module.css" />
+    <link type="text/css" rel="stylesheet" href="css/unit.css" />
+    <link type="text/css" rel="stylesheet" href="css/function.css" />
+    <link type="text/css" rel="stylesheet" href="css/grid.css" />
+</head>
+<body>
+<!-- 头部 -->
+<div id="header" class="header f-cb">
+    <div class="header-top">
+        <div class="g-in f-cb">
+            <div class="f-fl"></div>
+            <div class="nav-login f-fr">
+                <a class="login-link" href="#">登录</a><a class="reg-link" href="#">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="g-in f-cb">
+            <div class="header-logo f-fl">
+                <a href="#"><img src="images/logo.png" width="270" height="75" alt="萤火虫理财" /></a>
+            </div>
+            <div class="header-nav f-fr">
+                <ul class="f-cb">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我要理财</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a class="last" href="#">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end头部 -->
+
+<!-- 注册页面 -->
+<div id="pg-register" class="f-bg-gray-register f-pdb35">
+            <div class="register-form m-form f-fr">
+                <h3 class="register-form-title">立即注册，开始投资</h3>
+                <form id="register-form">
+                    <div class="form-item">
+                        <em class="icon email-icon"></em>
+                        <div class="ipt">
+                            <input type="text" class="u-ipt u-ipt-pl30" name="email" placeholder="电子邮箱" />
+                            <div class="vd-error">
+                                <em class="vd-arrow"></em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <em class="icon phone-icon"></em>
+                        <div class="ipt">
+                            <input type="text" class="u-ipt u-ipt-pl30" id="phone" name="phone" placeholder="手机号码" />
+                            <div class="vd-error">
+                                <em class="vd-arrow"></em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <em class="icon code-icon"></em>
+                        <div class="ipt f-cb">
+                            <input type="text" class="u-ipt u-ipt-w110 u-ipt-pl30 f-fl" name="code" placeholder="输入效验码" />
+
+                            <div class="code-box f-fl">
+                                <img class="f-fl" src="images/code_img.png" width="77" height="40" />
+                                <a class="refresh f-fl"></a>
+                            </div>
+                            <div class="vd-error">
+                                <em class="vd-arrow"></em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <em class="icon phone-code-icon"></em>
+                        <div class="ipt f-cb">
+                            <input type="text" class="u-ipt u-ipt-w180 u-ipt-pl30 f-fl" name="phone_code" placeholder="输入手机验证码" />
+                            <a class="sendbtn u-btn u-btn-w62 u-btn-h40 u-btn-c1 f-fl">发送</a>
+                            <div class="vd-error">
+                                <em class="vd-arrow"></em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <em class="icon password-icon"></em>
+                        <div class="ipt">
+                            <input type="text" class="u-ipt u-ipt-pl30" name="password" placeholder="密码为8个以上字母和数字组合" />
+                            <div class="vd-error">
+                                <em class="vd-arrow"></em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item f-cb">
+                        <span class="icon checked-icon f-fl"></span>
+                        <p class="protocol f-fl">我同意并接受萤火虫理财<a href="#">注册协议</a>, <a href="#">商业借款协议</a> 和 <a href="#">个人借款协议</a> </p>
+                    </div>
+                    <div>
+                        <input type="submit" class="u-btn u-btn-auto u-btn-h42 u-btn-mb10 u-btn-c1" value="立即注册" />
+                    </div>
+                </form>
+            </div>
+</div>
+<!-- end 注册页面 -->
+<!-- 底部 -->
+<div id="footer" class="footer">
+    <div class="g-in">
+        <div class="link">
+            <span>友情链接</span>
+            <a href="#">招商银行</a><a href="#">平安银行</a><a href="#">银客P2P理财</a><a href="#">招商银行</a><a href="#">平安银行</a><a href="#">银客P2P理财</a>
+        </div>
+        <div class="tel"><span>客户服务</span> <span>400-018-0101</span></div>
+        <div class="copyright">©2015 萤火虫金融&nbsp;&nbsp;&nbsp;&nbsp;京ICP备14028311&nbsp;&nbsp;&nbsp;&nbsp;北京阿拉丁控股有限责任公司</div>
+    </div>
+</div>
+<!-- end 底部 -->
+
+<link type="text/css" rel="stylesheet" href="css/index/index.css" />
+<script data-main="js/main" src="js/require.js"></script>
+<script>
+    require(['app/register']);
+</script>
+</body>
+</html>

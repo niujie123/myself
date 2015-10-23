@@ -1,0 +1,1572 @@
+/*
+* 用户中心样式
+*/
+#pg-user{
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+
+/* 用户中心侧边栏 */
+#pg-user .sidebar .profile{
+    background: #efefef;
+    font-size: 14px;
+}
+#pg-user .sidebar .profile .pf-hd{
+    padding-left: 48px;
+    padding-top: 20px;
+}
+#pg-user .sidebar .profile .pf-hd img{
+    border-radius: 50%;
+}
+#pg-user .sidebar .profile .pf-name{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#pg-user .sidebar .profile .pf-identification{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#pg-user .sidebar .profile .pf-level{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+#pg-user .sidebar .profile .pf-level a{
+    color: #b69527;
+}
+#pg-user .verify-icon{
+    text-align: center;
+    float: left;
+    margin-left: 13px;
+}
+#pg-user .verify-icon.last{
+    margin-left: 8px;
+}
+#pg-user .verify-icon span{
+    display: block;
+    width: 25px;
+    height: 22px;
+    background: url("../../images/user_icon02.png") no-repeat;
+}
+#pg-user .verify-icon .icon-email{
+    background-position: 0px -183px;
+}
+#pg-user .verify-icon.active .icon-email{
+    background-position: 0px 5px;
+}
+#pg-user .verify-icon .icon-profile{
+    background-position: 0px -18px;
+    width: 25px;
+}
+#pg-user .verify-icon.active .icon-profile{
+    background-position: 0px -208px;
+    width: 28px;
+}
+#pg-user .verify-icon .icon-mobile{
+    background-position: 5px -43px;
+}
+#pg-user .verify-icon.active .icon-mobile{
+    background-position: 5px -232px;
+}
+#pg-user .user-help{
+    background-color: #f6f6f6;
+}
+#pg-user .user-help2 dl{
+    padding-bottom: 20px;
+}
+#pg-user .user-help2 dl dt{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+#pg-user .user-help2 dl dd{
+    padding-left: 50px;
+    font-size: 16px;
+}
+#pg-user .user-help2 dl dd .menu-icon{
+    display: inline-block;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+#pg-user .user-help2 dl dd a:hover{
+    color: #ff8603;
+}
+#pg-user .user-help2 dl dd .active{
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-help2{
+    background-color: #f6f6f6;
+}
+
+
+#pg-user .user-help dl{
+    border-top: 1px solid #dcdddd;
+    padding-bottom: 20px;
+}
+#pg-user .user-help dl dt{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+#pg-user .user-help dl dd{
+    padding-left: 50px;
+    font-size: 16px;
+}
+#pg-user .user-help dl dd .menu-icon{
+    display: inline-block;
+    padding-bottom: 4px;
+    padding-top: 10px;
+}
+#pg-user .user-help dl dd .active{
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu{
+    background-color: #f6f6f6;
+}
+#pg-user .user-menu dl{
+    border-top: 1px solid #dcdddd;
+    padding-bottom: 20px;
+}
+#pg-user .user-menu dl dt{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+#pg-user .user-menu dl dd{
+    padding-left: 50px;
+    font-size: 16px;
+}
+#pg-user .user-menu dl dd .menu-icon{
+    background: url("../../images/user_icon02.png") no-repeat;
+    display: inline-block;
+    padding-left: 25px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#pg-user .user-menu dl dd .menu-icon.icon-account{
+    background-position: 0px -616px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-account{
+    background-position: 0px -842px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-safety{
+    background-position: 0px -81px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-safety{
+    background-position: 0px -413px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-basicinfo{
+    background-position: 0px -482px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-basicinfo{
+    background-position: 0px -888px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-card{
+    background-position: 0px -534px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-card{
+    background-position: 0px -689px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-Investment{
+    background-position: 0px -735px;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-yuyuejilu{
+    background-position: 0px -1045px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-yuyuejilu{
+    background-position: 0px -1093px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-Investment{
+    background-position: 0px -936px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-recharge{
+    background-position: 0px -788px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-recharge{
+    background-position: 0px -989px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .user-menu dl dd .menu-icon.icon-notice{
+    background-position: 0px -121px;
+}
+#pg-user .user-menu dl dd .menu-icon.active.icon-notice{
+    background-position: 0px -340px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+
+/* 账户概览 */
+#pg-user .simple-summary ul li{
+    float: left;
+    height: 120px;
+    width: 210px;
+    padding-left: 30px;
+    padding-top: 15px;
+    border-right: 1px solid #dcdddd;
+}
+#pg-user .simple-summary ul li.last{
+    border-right: 0px;
+}
+#pg-user .simple-summary ul li div{
+    padding-left: 63px;
+}
+#pg-user .simple-summary ul li div.item{
+    height: 71px;
+    font-size: 16px;
+}
+#pg-user .simple-summary ul li div.asset{
+    background: url("../../images/user_asset_img.png") no-repeat 0px 10px;
+}
+#pg-user .simple-summary ul li div.profit{
+    background: url("../../images/user_profit_img.png") no-repeat 0px 10px;
+}
+#pg-user .simple-summary ul li div.balance{
+    background: url("../../images/user_balance_img.png") no-repeat 0px 10px;
+}
+#pg-user .simple-summary ul li p.recharge-btn{
+    padding-left: 33px;
+    padding-top: 15px;
+}
+#pg-user .simple-summary ul li .big{
+    font-size: 26px;
+}
+#pg-user .my-products{
+    margin-top: 25px;
+}
+#pg-user .my-products .title{
+    font-size: 18px;
+}
+#pg-user .my-products table tr {
+    border: 1px solid #dcdddd;
+    height: 40px;
+    line-height: 40px;
+}
+
+#pg-user .my-products table tr th {
+    background-color: #f6f6f6;
+    border-right: 1px solid #dcdddd;
+    font-size: 16px;
+    text-align: center;
+}
+#pg-user .my-products table tr td {
+    border-right: 1px solid #dcdddd;
+    text-align: center;
+}
+
+/* 用户中心-产品列表 */
+#pg-user .product-list .title{
+    font-size: 18px;
+}
+#pg-user .product-list{margin-top: 18px}
+#pg-user .product-list .product-list-title{
+    height: 40px;
+    line-height: 40px;
+}
+#pg-user .product-list .product-list-content ul li{
+    border: 1px solid #e0e1e1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-bottom: 14px;
+    box-shadow: 0px 1px 0px #e4e4e4;
+}
+#pg-user .product-list .product-list-content ul li.two{
+    background-color: #f6f6f6;
+}
+#pg-user .product-list .product-list-content .img{
+    margin-right: 25px;
+}
+#pg-user .product-list .product-list-content .info{
+    width: 485px;
+    padding-right: 20px;
+    border-right: 1px solid #e4e5e5;
+}
+#pg-user .product-list .product-list-content .info .desc{
+    color: #898989;
+}
+#pg-user .product-list .product-list-content .count-profits{
+    background-color: #4aa4ce;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+#pg-user .product-list .product-list-content .info-bottom{
+    margin-top: 15px;
+}
+#pg-user .product-list .product-list-content .item{
+    width: 185px;
+    float: left;
+}
+#pg-user .product-list .product-list-content .item.last{
+    width: 110px;
+}
+#pg-user .product-list .product-list-content .red{
+    color: #fe1300;
+}
+#pg-user .product-list .product-list-content .item .rate{
+    color: #fe1300;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 18px;
+    line-height: 40px;
+}
+#pg-user .product-list .product-list-content .product-investment{
+    width: 205px;
+    padding-left: 30px;
+}
+#pg-user .product-list .product-list-content .product-investment .t{
+    color: #898989;
+    padding-left: 25px;
+    margin-right: 18px;
+}
+#pg-user .product-list .product-list-content .investment-money{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#pg-user .product-list .product-list-content .join-num{
+    padding-bottom: 10px;
+}
+#pg-user .product-list .product-list-content .investment-btn{
+    padding-left: 17px;
+}
+#pg-user .product-list .product-list-content .product-investment .t.t1{
+    background: url("../../images/icon_money.png") no-repeat;
+}
+#pg-user .product-list .product-list-content .product-investment .t.t2{
+    background: url("../../images/icon_ren.png") no-repeat;
+}
+#pg-user .product-list .product-list-content .product-investment .c{
+    color: #5a3613;
+}
+/* 新闻样式 */
+#pg-user .basic-info-new{
+    margin-left: 0px;
+    min-height: 400px;
+    margin-left: 100px;
+}
+#pg-user .basic-info-new .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+    text-align: center;
+}
+#pg-user .basic-info-new .basic-info-box .basic-profile{
+    padding-top: 25px;
+    padding-left: 27px;
+    padding-bottom: 25px;
+}
+/* 基本信息 */
+#pg-user .basic-info{
+    margin-left: 0px;
+    min-height: 400px;
+}
+#pg-user .basic-info .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+    text-align: center;
+}
+#pg-user .basic-info .basic-info-box .basic-profile{
+    padding-top: 25px;
+    padding-left: 27px;
+    padding-bottom: 25px;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .pf-head img{
+    border-radius: 50%;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .pf-content{
+    margin-left: 20px;
+    font-size: 16px;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .pf-content .pf-name{
+    font-size: 16px;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .pf-content .basic-progress-bg{
+    background: none repeat scroll 0 0 #e3e3e3;
+    display: inline-block;
+    height: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 8px;
+    width: 250px;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .pf-content .basic-progress-bg b{
+    background: none repeat scroll 0 0 #ff8603;
+    display: block;
+    height: 8px;
+    width: 30%;
+}
+#pg-user .personal-info .info-content{
+    padding-left: 68px;
+}
+#pg-user .personal-info .info-content .info-row{
+    width: 620px;
+    font-size: 16px;
+}
+#pg-user .personal-info .info-content .row{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#pg-user .personal-info .info-content .info-name{
+    width: 115px;
+}
+#pg-user .personal-info .info-content .info-value{
+    width: 360px;
+}
+
+/* 投资记录 */
+#pg-user .investment-records{
+    margin-left: 0px;
+}
+#pg-user .investment-records .ir-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .investment-records .ir-box .content{
+    padding-left: 27px;
+}
+#pg-user .investment-records .ir-box .content .screening{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#pg-user .investment-records .ir-box .content .screening span{
+    margin-right: 20px;
+    font-size: 16px;
+}
+#pg-user .investment-records .ir-box .content .screening a{
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+#pg-user .investment-records .ir-box .content .screening a.active{
+    color: #ff8603;
+    border-bottom: 1px solid #ff8603;
+}
+#pg-user .investment-records .ir-box .content .status{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#pg-user .investment-records .ir-box .content .status span{
+    margin-right: 70px;
+}
+#pg-user .investment-records .ir-box .content .status em{
+    color: #ff8603;
+}
+#pg-user .investment-records .ir-box .content .records-list{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#pg-user .investment-records .ir-box .content .records-list table tr{
+    border: 1px solid #dcdddd;
+}
+
+#pg-user .investment-records .ir-box .content .records-list table tr th {
+    background-color: #f6f6f6;
+    border-right: 1px solid #dcdddd;
+    font-size: 12px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #595757;
+}
+
+#pg-user .investment-records .ir-box .content .records-list table tr td {
+    border-right: 1px solid #dcdddd;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #898989;
+}
+#pg-user .investment-records .ir-box .content .records-list table tr td a{
+    color: #898989;
+}
+
+/* 充值提现 */
+#pg-user .recharge{
+    margin-left: 0px;
+}
+#pg-user .recharge .recharge-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .recharge .recharge-box .content{
+    padding-left: 27px;
+}
+#pg-user .recharge .recharge-box .content .summary-section{
+    margin-top: 15px;
+}
+#pg-user .recharge .recharge-box .content .tip-wrapper{
+    width: 475px;
+    padding-right: 50px;
+    border-right: 1px solid #dcdddd;
+}
+#pg-user .recharge .recharge-box .content .tip-wrapper .header-label{
+    font-size: 16px;
+    padding: 5px 0px;
+}
+#pg-user .recharge .recharge-box .content .tip-wrapper li{
+    line-height: 25px;
+    font-size: 12px;
+    color: #3e3a3a;
+}
+#pg-user .recharge .recharge-box .content .status-wrapper{
+    padding-left: 550px;
+    padding-right: 25px;
+    padding-top: 30px;
+}
+#pg-user .recharge .recharge-box .content .status-wrapper .textTop div{
+    margin-bottom: 10px;
+}
+#pg-user .recharge .recharge-box .content .status-wrapper .u-btn{
+    font-size: 14px;
+}
+#pg-user .recharge .recharge-box .content .status-wrapper .u-btn em{
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background: url("../../images/user_icon.png") no-repeat;
+    margin-right: 3px;
+    float: left;
+    margin-top: 10px;
+}
+#pg-user .recharge .recharge-box .content .status-wrapper em.tixian-icon{
+    background-position: 0px -638px;
+}
+#pg-user .recharge .recharge-box .content .status-wrapper em.chongzhi-icon{
+    background-position: 0px -586px;
+}
+#pg-user .recharge .recharge-box .content .summary-filter{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+#pg-user .recharge .recharge-box .content .summary-filter span{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#pg-user .recharge .recharge-box .content .summary-filter a{
+    float: left;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pg-user .recharge .recharge-box .content .summary-filter a.active{
+    background: #ff8603;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#pg-user .recharge .recharge-box .content .transaction-list table tr{
+    border: 1px solid #dcdddd;
+}
+
+#pg-user .recharge .recharge-box .content .transaction-list table tr th {
+    background-color: #f6f6f6;
+    border-right: 1px solid #dcdddd;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #595757;
+}
+
+#pg-user .recharge .recharge-box .content .transaction-list table tr td {
+    border-right: 1px solid #dcdddd;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #898989;
+}
+#pg-user .recharge .recharge-box .content .transaction-list table tr td a{
+    color: #898989;
+}
+#pg-user .recharge .recharge-box .content .transaction-list .arrow-icon{
+    background: url("../../images/user_icon.png") no-repeat;
+    background-position: 4px -665px;
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+}
+#pg-user .recharge .recharge-box .content .transaction-list .pagination{
+    text-align: right;
+    margin-top: 15px;
+}
+
+/* 充值详情 */
+#pg-user .recharge .recharge-way p.tit{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 13px;}
+#pg-user .recharge .recharge-way .red{
+    color: #ff8603;
+}
+#pg-user .recharge .recharge-way .options{
+    border: 1px solid #c9c9c9;
+}
+#pg-user .recharge .recharge-way .menu{
+    height: 42px;
+    line-height: 42px;
+}
+#pg-user .recharge .recharge-way .menu li{
+    color: #898989;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#pg-user .recharge .recharge-way .menu li.current{
+    background: url("../../images/product_type_nav_bg.png") repeat-x scroll left top #ffffff;
+    color: #000000;
+}
+#pg-user .recharge .recharge-way .content{
+    padding-left: 0px;
+}
+#pg-user .recharge .recharge-way .content .choose-bank{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#pg-user .recharge .recharge-way .content .choose-bank li{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+#pg-user .recharge .recharge-way .content .choose-bank .sel-redio{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../images/radio_kx.png") no-repeat;
+    vertical-align: 13px;
+    cursor: pointer;
+    margin-right: 1px;
+}
+#pg-user .recharge .recharge-way .content .choose-bank .sel-redio.checked{
+    background: url("../../images/radio_st.png") no-repeat;
+}
+#pg-user .recharge .recharge-way .content .choose-bank input.radio{
+    vertical-align: 13px;
+    display: none;
+}
+#pg-user .recharge .recharge-way .m-form2{
+    margin-top: 20px;
+}
+#pg-user .recharge .recharge-way .form-item{
+    margin-bottom: 30px;
+}
+#pg-user .recharge .recharge-way .form-item .lab{
+    width: 80px;
+    margin-right: 30px;
+}
+#pg-user .recharge .recharge-way .form-item .ipt{
+    height: 33px;
+    line-height: 33px;
+    position: relative;
+}
+#pg-user .recharge .recharge-way .form-item .ipt .money{
+    width: 150px;
+    padding-left: 5px;
+    padding-right: 33px;
+    height: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #b5b5b5;
+}
+#pg-user .recharge .recharge-way .form-item .ipt .coupon{
+    left: 110px;
+    position: absolute;
+    top: 25px;
+    color: #898989;
+}
+#pg-user .recharge .recharge-way .form-item .ipt .coupon input{
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+#pg-user .recharge .recharge-way .form-item .ipt .yuan{
+    position: absolute;
+    top: 9px;
+    left: 275px;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background: url("../../images/yuan.png") no-repeat;
+}
+#pg-user .recharge .recharge-way .form-item .ipt .u-btn em{
+    background: url("../../images/user_icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    float: left;
+    height: 15px;
+    margin-right: 3px;
+    margin-top: 10px;
+    width: 14px;
+}
+#pg-user .recharge .recharge-way .form-item .ipt .u-btn em.chongzhi-icon{
+    background-position: 0 -586px;
+}
+
+/* 支付成功 */
+.recharge-layer{
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.recharge-layer p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.recharge-layer .btn a{
+    margin-right: 10px;
+}
+
+/* 修改密码 */
+#pg-user .update-pwd{
+    margin-left: 0px;
+}
+#pg-user .update-pwd .pwd-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .update-pwd .content{
+    padding-left: 27px;
+    padding-top: 21px;
+}
+
+/* 邮箱验证 */
+#pg-user .email-valid{
+    margin-left: 0px;
+}
+#pg-user .email-valid .ev-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .email-valid .content{
+    padding-left: 27px;
+    padding-top: 23px;
+}
+#pg-user .email-valid .content .msg{
+    height: 30px;
+    line-height: 30px;
+    background:#eeeeee url("../../images/alert_msg.png") no-repeat 25px 8px;
+    padding-left: 48px;
+    margin-top: 44px;
+    margin-bottom: 28px;
+}
+#pg-user .email-valid .content .email-ipt{
+    height: 33px;
+    line-height: 33px;
+}
+#pg-user .email-valid .content .email-ipt a{
+    margin-left: 14px;
+    border-bottom: 1px solid #ff8603;
+    color: #ff8603;
+}
+#pg-user .email-valid .content .valid-success{
+    height: 115px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    margin-top: 57px;
+    padding: 5px;
+}
+#pg-user .email-valid .content .valid-success .success-msg{
+    border: 1px solid #c9c9c9;
+    -moz-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    -webkit-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    border-radius: 5px;
+    height: 113px;
+    line-height: 115px;
+    text-align: center;
+    background: #ffffff;
+    font-size: 20px;
+    color:#ff8603
+}
+#pg-user .email-valid .content .valid-success .success-msg em{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background: url("../../images/duigou.png") no-repeat;
+    vertical-align: middle;
+}
+
+/* 邮箱验证成功页面 */
+#pg-user .email_valid_success{
+    height: 150px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    margin-top: 44px;
+    margin-bottom: 150px;
+    padding: 5px;
+}
+#pg-user .email_valid_success .success-msg{
+    border: 1px solid #c9c9c9;
+    -moz-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    -webkit-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    border-radius: 5px;
+    height: 148px;
+    text-align: center;
+    background: #ffffff;
+    font-size: 20px;
+    color:#ff8603
+}
+#pg-user .email_valid_success .success-msg .msg1{
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #d7d7d7;
+}
+#pg-user .email_valid_success .success-msg .msg2{
+    height: 46px;
+    background: #f6f6f6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #eaeaea;
+    font-size: 12px;
+    line-height: 46px;
+    color: #898989;
+}
+#pg-user .email_valid_success .success-msg .msg2 a{
+    font-size: 18px;
+    color: #ff8603;
+}
+#pg-user .email_valid_success .success-msg em.success-msg-icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* 感叹号 */
+#pg-user .email_valid_success .success-msg em.success-msg-icon.icon1{
+    width: 34px;
+    height: 34px;
+    background: url("../../images/gantanhao.png") no-repeat;
+}
+/* 对勾 */
+#pg-user .email_valid_success .success-msg em.success-msg-icon.icon2{
+    width: 48px;
+    height: 39px;
+    background: url("../../images/duigou2.png") no-repeat;
+}
+/* 错误 */
+#pg-user .email_valid_success .success-msg em.success-msg-icon.icon3{
+    width: 34px;
+    height: 32px;
+    background: url("../../images/cuowu.png") no-repeat;
+}
+
+/* 系统公告 */
+#pg-user .notice{
+    margin-left: 0px;
+}
+#pg-user .notice .notice-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .notice .notice-list li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #dcdddd;
+}
+#pg-user .notice .notice-list .img{
+    width: 99px;
+    height: 113px;
+    border: 1px solid #c9c9c9;
+    float: left;
+    margin-right: 10px;
+}
+#pg-user .notice .content{
+    margin-left: 27px;
+}
+#pg-user .notice .content .info .tit{
+    color: #9fa0a0;
+    font-size: 20px;
+}
+#pg-user .notice .content .info .time{
+    color: #9fa0a0;
+    margin-bottom: 15px;
+}
+#pg-user .notice .content .info .open{
+    position: absolute;
+    right: 0px;
+    top: 105px;
+    color: #b69527;
+    margin-right: 7px;
+}
+#pg-user .notice .content .info .open em{
+    width: 16px;
+    height: 9px;
+    display: inline-block;
+    background: url("../../images/user_icon.png") no-repeat 0px -710px;
+    margin-left: 10px;
+}
+#pg-user .notice .content .pagination{
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* 遮罩层 */
+.masking {
+    background: none repeat scroll 0 0 #000;
+    display: none;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: 900;
+}
+/*弹出层*/
+.dialog{
+    position: absolute;
+    z-index: 999;
+    color: #333;
+    padding: 0px 15px;
+    background-color: #ffffff;
+    zoom: 1;
+    display: none;
+}
+.dialog .titlebar{
+    height: 74px;
+    line-height: 74px;
+    border-bottom: solid 1px #dcdcdc;
+    font-size: 20px;
+}
+.dialog .titlebar a.close{
+    background: transparent url(../../images/close.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    float: right;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-right: 7px;
+    overflow: hidden;
+}
+
+/* 提现弹出框验证 */
+#withdrawals-layer .vd-error{
+    left: 485px;
+    width: 160px;
+}
+#withdrawals-layer .vd-success{
+    background-color: transparent;
+}
+
+/* 交易详情 */
+#pg-user .trading{
+    margin-left: 0px;
+}
+#pg-user .trading .trading-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .trading .content{
+    padding-left: 27px;
+    padding-top: 32px;
+}
+#pg-user .trading .content table td{
+    border: 1px solid #dcdddd;
+    height: 40px;
+    line-height: 40px;
+    color: #595757;
+    font-size: 12px;
+}
+#pg-user .trading .content table td.one{
+    width: 125px;
+    text-align: center;
+}
+#pg-user .trading .content table td.two{
+    width: 585px;
+    padding-left: 30px;
+}
+#pg-user .trading .content .btn{
+    margin-top: 18px;
+}
+
+/* 申购成功 */
+#pg-user .purchase_success .success-msg{
+    color: #ff8603;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+#pg-user .purchase_success .success-msg em.success-msg-icon{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: -23px;
+}
+#pg-user .purchase_success .success-msg em.success-msg-icon.icon2 {
+    background: url("../../images/duigou2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 39px;
+    width: 48px;
+}
+#pg-user .purchase_success .success-msg .msg1{
+    position: relative;
+}
+#pg-user .purchase_success .success-msg .msg1 .sq-money{
+    position: absolute;
+}
+#pg-user .purchase_success .success-msg .msg1 span{
+    font-size: 14px;
+    color: #595757;
+    margin-left: -42px;
+    margin-top: -15px
+}
+#pg-user .purchase_success .success-msg .msg1 span .red{
+    color: #ff8603;
+}
+#pg-user .purchase_success .detail{
+    border: 1px solid #c9c9c9;
+}
+#pg-user .purchase_success .detail .title{
+    height: 50px;
+    line-height: 50px;
+    background: #f6f6f6;
+    padding-left: 27px;
+    font-size: 16px;
+}
+#pg-user .purchase_success .detail .content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#pg-user .purchase_success .detail .content table td{
+    line-height: 30px;
+}
+#pg-user .purchase_success .detail .content table td span{
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+#pg-user .purchase_success .detail .content table td.one{
+    width: 350px;
+    padding-left: 40px;
+}
+
+/* 身份验证 */
+#pg-user .id-valid{
+    margin-left: 0px;
+}
+#pg-user .id-valid .id-box .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .id-valid .content{
+    padding-left: 27px;
+    padding-top: 23px;
+}
+#pg-user .id-valid .content .m-form2{
+    margin-top: 30px;
+}
+#pg-user .id-valid .content .valid-success .success-msg{
+    border: 1px solid #c9c9c9;
+    -moz-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    -webkit-box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    box-shadow:1px 1px 3px rgba(110, 106, 110, 0.4) inset;
+    border-radius: 5px;
+    height: 113px;
+    line-height: 115px;
+    text-align: center;
+    background: #ffffff;
+    font-size: 20px;
+    color:#ff8603
+}
+#pg-user .id-valid .content .valid-success .success-msg em.success-msg-icon{
+    display: inline-block;
+    width: 48px;
+    height: 39px;
+    background: url(../../images/duigou2.png) no-repeat;
+    vertical-align: middle;
+}
+#pg-user .id-valid .content .valid-success .success-msg em.error-msg-icon{
+    display: inline-block;
+    width: 34px;
+    height: 32px;
+    background: url(../../images/cuowu.png) no-repeat;
+    vertical-align: middle;
+}
+.id-layer p{
+    font-size: 16px;
+    padding-left: 30px;
+    background: url("../../images/duigou3.png") no-repeat;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/* 银行卡管理 */
+#pg-user .bank-card{
+    margin-left: 0px;
+}
+#pg-user .bank-card .title{
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 27px;
+}
+#pg-user .bank-card .leftcontent{
+    padding-left:27px;
+    padding-top:26px;
+    float:left;
+}
+#pg-user .bank-card .leftcontent .list{
+    width:540px;
+    border:#c9c9c9 1px solid;
+}
+#pg-user .bank-card .leftcontent .menu{
+    padding-left:13px;
+    height:42px;
+    line-height:42px;
+}
+#pg-user .bank-card .leftcontent .per-card-tab{
+    width: 100%;
+    line-height: 30px;
+}
+#pg-user .bank-card .leftcontent .per-card-tab th{
+    margin: 10px;
+    padding-left: 13px;
+    border: #dcdddd 1px solid;
+    color: #595757;
+}
+#pg-user .bank-card .leftcontent .per-card-tab td{
+    margin: 10px;
+    padding-left: 13px;
+    border: #dcdddd 1px solid;
+    color: #898989;
+}
+#pg-user .bank-card .leftcontent .erro{
+    padding-top:29px;
+    padding-bottom:22px;
+    font-size:12px;
+    text-align:center;
+}
+#pg-user .bank-card .leftcontent .erro img{
+    vertical-align:-2px;
+    margin:2px 10px 0 0;
+}
+#pg-user .bank-card .leftcontent .add{
+    padding-top:15px;
+    padding-bottom:45px;
+}
+#pg-user .bank-card .leftcontent .addtab tr{
+    font-size:14px;
+    line-height:45px;
+}
+#pg-user .bank-card .leftcontent .bank-logo{
+    border:#c9c9c9 1px solid;
+    vertical-align:middle;
+    width:123px;
+    height:34px;
+}
+#pg-user .bank-card .leftcontent .one{
+    padding-left:15px;
+}
+#pg-user .bank-card .leftcontent .two{
+    padding-left:7px;
+}
+#pg-user .bank-card .leftcontent .chose-bank{
+    padding:4px 7px;
+    border:#c9c9c9 1px solid;
+    border-radius:2px;
+    background-color:#f6f6f6;
+    cursor:pointer;
+    font-size:10px;
+    margin-left:7px;
+    color:#676666;
+}
+#pg-user .bank-card .leftcontent .chose-bank:hover{
+    border:#ff8603 1px solid;
+}
+#pg-user .bank-card .leftcontent .orange{
+    color:#ff9029;
+}
+#pg-user .bank-card .leftcontent .gray{
+    color:#b5b5b6;
+    font-size:12px;
+}
+
+#pg-user .bank-card .rightcontent{
+    padding-left:17px;
+    padding-top:26px;
+    float:right;
+}
+#pg-user .bank-card .rightcontent .list{
+    width:150px;
+    border:#ff8603 1px solid;
+    padding:17px 7px 3px 13px;
+    font-size:12px;
+    line-height:20px;
+}
+#pg-user .bank-card .rightcontent .list p{
+    margin-left:20px;
+    position:relative;
+    margin-bottom:10px;
+}
+#pg-user .bank-card .rightcontent .list img{
+    display: block;
+    position:absolute;
+    left:-20px;
+    top:3px;
+}
+#pg-user .bank-card .rightcontent .tips{
+    border:#ff8603 1px solid;
+    font-size:12px;
+    line-height:20px;
+}
+#pg-user .bank-card .rightcontent .tips-top{
+    height:37px;
+    line-height:37px;
+    padding:0 7px 0 13px;
+    font-size:14px;
+}
+#pg-user .bank-card .rightcontent .tips-bottom{
+    width:150px;
+    padding:17px 7px 3px 13px;
+    font-size:12px;
+    line-height:20px;
+}
+#pg-user .bank-card .rightcontent .tips-bottom p{
+    margin-bottom:10px;
+}
+#pg-user .bank-card .m-form2 .form-item .lab{
+    width:120px;
+    font-size:14px;
+}
+#pg-user .bank-card .m-form2 .form-item .name{
+    padding-left:7px;
+}
+#pg-user .bank-card .m-form2 .vd-error{
+    left:380px;
+    font-size:10px;
+}
+#pg-user .bank-card .m-form2 .vd-error .error{
+    background: url(../../images/error-no.png) no-repeat scroll 8px 4px rgba(0, 0, 0, 0);
+    line-height:20px;
+}
+#pg-user .bank-card .m-form2 .vd-error .vd-arrow{
+    top: 9px;
+}
+#pg-user .bank-card .leftcontent .card-name{
+    font-size:14px;
+    height:33px;
+    line-height:33px;
+    text-align:left;
+    padding-left:10px;
+}
+/* 银行卡管理 */
+#bank-out .dialog{
+    padding:0;
+}
+#bank-out .dialog .titlebar{
+    border:none;
+    font-size:16px;
+    height:42px;
+    line-height:42px;
+    background-color:#f6f6f6;
+    padding-left:17px;
+}
+#bank-out .dialog .titlebar a.close{
+    background:transparent url(../../images/bankcard/close_small.png) no-repeat;
+    width:22px;
+    height:22px;
+    margin-top:10px;
+    margin-right:23px;
+}
+#bank-out .dialog .banklist{
+    padding:30px 2px 20px 17px;
+}
+#bank-out .dialog .banklist .choose-bank{
+}
+#bank-out .dialog .banklist .choose-bank li{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+#bank-out .dialog .banklist  .sel-redio{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../images/radio_kx.png") no-repeat;
+    vertical-align: 13px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#bank-out .dialog .banklist .sel-redio.checked{
+    background: url("../../images/radio_st.png") no-repeat;
+}
+#bank-out .dialog .banklist input.radio{
+    vertical-align: 13px;
+    display: none;
+}
+#bank-out .dialog .banklist .bank-icon img{
+    width:123px;
+    height:34px;
+}
+/* 新手指引页面 */
+#pg-user .f-cb .step1{
+    padding-top: 38px;
+    padding-bottom: 25px;
+    width: 960px;
+    height: 350px;
+    margin: 0 auto;
+}
+#pg-user .f-cb .step1 .why{
+    background: url("../../images/step1_why.png") no-repeat left center;
+    color: #ff8603;
+    font-size: 26px;
+    line-height: 26px;
+    padding-left: 36px;
+}
+.title_center{
+    text-align: center;
+}
+#pg-user .f-cb .step1 .reason{
+    padding-top: 50px;
+    clear: both;
+}
+#pg-user .f-cb .step1 .reason li{
+    float: left;
+    width: 320px;
+    text-align: center;
+}
+#pg-user .f-cb .step1 .reason .three-img{
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+}
+#pg-user .f-cb .step1 .reason .img01{
+    background: url("../../images/step1_why_01.png") no-repeat;
+}
+#pg-user .f-cb .step1 .reason .img02{
+    background: url("../../images/step1_why_02.png") no-repeat;
+}
+#pg-user .f-cb .step1 .reason .img03{
+    background: url("../../images/step1_why_03.png") no-repeat;
+}
+#pg-user .f-cb .step1 .reason .title{
+    font-size: 17px;
+    color: #3e3a3a;
+    padding: 25px 0 15px 0;
+}
+#pg-user .f-cb .step1 .reason .text{
+    font-size: 12px;
+    color: #898989;
+    margin: 0 auto;
+    line-height: 18px;
+    width: 233px;
+}
+.clear {
+    clear: both;
+}
+#pg-user .f-cb .step2{
+    padding-top: 54px;
+    padding-bottom: 100px;
+    height: 202px;
+    background-color: #f7f8f8;
+}
+#pg-user .f-cb .step2 .page{
+    width: 960px;
+    margin: 0 auto;
+}
+#pg-user .f-cb .step2 .why{
+    background: url("../../images/step2_why.png") no-repeat left center;
+    color: #ff8603;
+    font-size: 26px;
+    line-height: 26px;
+    padding-left: 36px;
+}
+#pg-user .f-cb .step2 .reason{
+    padding-top: 72px;
+    clear: both;
+    margin: 0 auto;
+}
+#pg-user .f-cb .step2 .reason .title{
+    font-size: 18px;
+    color: #3e3a3a;
+    font-weight: bold;
+}
+#pg-user .f-cb .step2 .reason .text{
+    font-size: 12px;
+    color: #898989;
+    margin: 0 auto;
+    line-height: 23px;
+    margin-top: 13px;
+}
+#pg-user .f-cb .step2 .reason li{
+    float: left;
+    text-align: left;
+}
+#pg-user .f-cb .step2 .reason .two-img{
+    width: 300px;
+    height: 92px;
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 20px;
+}
+#pg-user .f-cb .step2 .reason .img01{
+    background: url("../../images/step2_why_01.png") no-repeat top left;
+}
+#pg-user .f-cb .step2 .reason .img02{
+    background: url("../../images/step2_why_02.png") no-repeat top left;
+}
+#pg-user .f-cb .step2 .reason .two-img02{
+    width: 320px;
+    height: 92px;
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 20px;
+}
+#pg-user .f-cb .step4{
+    padding-top: 68px;
+}
+#pg-user .f-cb .step4 .page{
+    width: 960px;
+    margin: 0 auto;
+}
+#pg-user .f-cb .step4 .why{
+    background: url("../../images/step3_why.png") no-repeat left center;
+    color: #ff8603;
+    font-size: 26px;
+    line-height: 26px;
+    padding-left: 36px;
+}
+#pg-user .f-cb .step4 .page .order{
+    padding-top: 68px;
+}
+#pg-user .f-cb .step4 .page .order .step{
+    float: left;
+    width: 314px;
+    height: 146px;
+}
+#pg-user .f-cb .step4 .page .order .img01{
+    background: url("../../images/step04-yuyue01.png");
+    margin-right: 8px;
+}
+#pg-user .f-cb .step4 .page .order .img02{
+    background: url("../../images/step04-yuyue02.png");
+    margin-right: 8px;
+}
+#pg-user .f-cb .step4 .page .order .img03{
+    background: url("../../images/step04-yuyue03.png");
+}
+#pg-user .f-cb .step3{
+    padding-top: 68px;
+}
+#pg-user .f-cb .step3 .page{
+    width: 960px;
+    margin: 0 auto;
+}
+#pg-user .f-cb .step3 .why{
+    background: url("../../images/step4_why.png") no-repeat left center;
+    color: #ff8603;
+    font-size: 26px;
+    line-height: 26px;
+    padding-left: 36px;
+}
+#pg-user .f-cb .step3 .page .order{
+    padding-top: 68px;
+}
+#pg-user .f-cb .step3 .page .order .step{
+    float: left;
+    width: 468px;
+    height: 275px;
+}
+#pg-user .f-cb .step3 .page li{
+    margin-bottom: 25px;
+}
+#pg-user .f-cb .step3 .page .order .img01{
+    background: url("../../images/step3_buy_01.png");
+    margin-right: 22px;
+}
+#pg-user .f-cb .step3 .page .order .img02{
+    background: url("../../images/step3_buy_02.png");
+}
+#pg-user .f-cb .step3 .page .order .img03{
+    background: url("../../images/step3_buy_03.png");
+    margin-right: 22px;
+}
+#pg-user .f-cb .step3 .page .order .img04{
+    background: url("../../images/step3_buy_04.png");
+}
+/*账户问题帮助5月26日--于潇川*/
+#pg-user .basic-info .basic-info-box .basic-profile .closeli{
+    margin-bottom: 10px;
+    margin-left: 8px;
+    color: #595757;
+    font-size: 16px;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .openli{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    color: #898989;
+    font-size: 14px;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .closeli .closebtn{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: -3px;
+    margin-right: 8px;
+    background: url("../../images/help_close.png");
+}
+#pg-user .basic-info .basic-info-box .basic-profile .closeli .closebtnbac02{
+    background: url("../../images/help_open.png");
+}
+#pg-user .basic-info .basic-info-box .basic-profile .pay01{
+    margin-top: 10px;
+    display: block;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .openli .helpspan{
+    display: block;
+    float: left;
+}
+#pg-user .basic-info .basic-info-box .basic-profile .openli .helpspan2{
+    display: inline-block;
+    float: left;
+    width: 600px;
+}

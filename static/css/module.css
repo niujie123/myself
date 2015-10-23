@@ -1,0 +1,193 @@
+/* 通常是一个语义化的可以重复使用的较大的整体！比如导航、登录、注册、各种列表、评论、搜索等！ */
+
+/* 通用ICON */
+.icon{
+    background: url("../images/icons.png");
+}
+
+/* 简易表单  */
+.m-form .form-item{
+    margin-bottom: 15px;
+    position: relative;
+}
+.m-form .form-item .icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+.m-form .form-item .icon.email-icon{
+    background-position: 0 0;
+    top: 15px;
+}
+.m-form .form-item .icon.phone-icon{
+    background-position: 0 -35px;
+}
+.m-form .form-item .icon.code-icon{
+    background-position: 0 -71px;
+}
+.m-form .form-item .icon.phone-code-icon{
+    background-position: 0 -106px;
+}
+.m-form .form-item .icon.password-icon{
+    background-position: 0 -142px;
+}
+.m-form .form-item .icon.checked-icon{
+    background-position: 0 -177px;
+    width: 14px;
+    height: 14px;
+    left: 0px;
+    top: 4px;
+    display: block;
+}
+.m-form .form-item .icon.login-email-icon{
+    background-position: 0 -213px;
+    top: 13px;
+}
+.m-form .form-item .protocol{
+    width: 270px;
+    margin-left: 20px;
+}
+.m-form .form-item .protocol a{
+    color: #5b360e;
+    text-decoration: underline;
+}
+.m-form .form-item .sendbtn{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.m-form .form-item .code-box{
+    border: 1px solid #ff8603;
+    border-radius: 3px;
+    margin-left: 10px;
+    -moz-box-shadow:1px 1px 1px #b45f03;
+    -webkit-box-shadow:1px 1px 1px #b45f03;
+    box-shadow:1px 1px 1px #b45f03;
+}
+.m-form .form-item .refresh{
+    display: inline-block;
+    width: 52px;
+    height: 40px;
+    background: #ff8603 url("../images/refresh_img.png") no-repeat center center;
+
+}
+
+/* 表单错误提示 */
+.m-form .vd-error{
+    position: absolute;
+    left: 307px;
+    top: 0px;
+    border: 1px solid #e30a20;
+    display: block;
+    width: 150px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    /*line-height: 39px;*/
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: none;
+}
+.m-form .vd-error .vd-arrow{
+    position: absolute;
+    top: 11px;
+    left: -13px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icons.png") no-repeat 0 -354px;
+}
+.m-form .vd-error .error{
+    background: url("../images/error-no.png") no-repeat 8px 4px;
+    padding-left: 25px;
+    left: 0;
+    right: 0;
+}
+.m-form .err-alert{
+    border-radius: 3px;
+    background: #efefef;
+    padding: 11px;
+    border-color: #efefef;
+    color: #a94442;
+    margin-bottom: 15px;
+}
+
+/* 简易表单2 */
+.m-form2 .form-item{
+    margin-bottom: 22px;
+    position: relative;
+}
+.m-form2 .form-item .lab{
+    width: 173px;
+    text-align: right;
+    font-size: 16px;
+    float: left;
+    height: 33px;
+    line-height: 33px;
+}
+.m-form2 .form-item .obtain-code{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #ff8603;
+    width: 98px;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+/* 表单错误提示 */
+.m-form2 .vd-error{
+    position: absolute;
+    left: 520px;
+    top: 0px;
+    border: 1px solid #e30a20;
+    display: block;
+    padding-right: 10px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    /*line-height: 39px;*/
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: none;
+}
+.m-form2 .vd-error .vd-arrow{
+    position: absolute;
+    top: 11px;
+    left: -13px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icons.png") no-repeat 0 -354px;
+}
+.m-form2 .vd-error .error{
+    background: url("../images/error-no.png") no-repeat 8px 4px;
+    padding-left: 25px;
+    left: 0;
+    right: 0;
+}
+.m-form2 .err-alert{
+    border-radius: 3px;
+    background: #f2dede;
+    padding: 11px;
+    border-color: #ebccd1;
+    color: #a94442;
+    margin-bottom: 15px;
+}
+/* 成功提示 */
+.m-form2 .vd-success{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("../images/icons.png") no-repeat 0px -457px;
+    border: none;
+    padding-right: 0px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.m-form2 .vd-success .vd-arrow{
+    background: none;
+}

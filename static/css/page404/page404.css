@@ -1,0 +1,32 @@
+/*
+* 404页面样式
+*/
+.main{
+    background: url("../../images/404_bg.png") no-repeat center 70px;
+    height: 420px;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    color: #626262;
+}
+.link a.go-home{
+    background: url("../../images/icons.png") no-repeat;
+    background-position: 0px -385px;
+    display: inline-block;
+    padding-left: 18px;
+    margin-right: 17px;
+}
+.link a.go-back{
+    background: url("../../images/icons.png") no-repeat;
+    background-position: 3px -418px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.no-page{
+    font-size: 20px;
+    color: #3c3c3c;
+    text-align: center;
+    margin-bottom: 5px;
+}
