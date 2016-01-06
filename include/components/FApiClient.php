@@ -189,7 +189,7 @@ class FApiClient
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         curl_setopt($ch, CURLOPT_POST, 0);
-        //set_time_limit(0);
+        set_time_limit(0);
         $info = curl_exec($ch);
         curl_close($ch);
         return $info;

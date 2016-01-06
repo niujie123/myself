@@ -40,6 +40,11 @@ return array(
                 '<controller:\w+>/p<page:\d+>' 			    => 	'<controller>',
                 '<controller:\w+>/<action:\w+>/p<page:\d+>' => '<controller>/<action>',
 
+                // gii
+//                'gii'                                       =>  'gii',
+//                'gii/<controller:\w+'                       =>  'gii/<controller>',
+//                'gii/<controller:\w+>/<action:\w+>'         =>  'gii/<controller>/<action>',
+
                 //产品列表
                 '<controller:s>'							=> 	'product/index',
                 '<controller:s>/<typeId:\d+>'				=> 	'product/index',
@@ -66,29 +71,29 @@ return array(
         'cache' => array(
             'class' => 'FMemCache',
             //'keyPrefix' => 'fireFly.com',
-            'keyPrefix' => 'fireflymoney.com',
+            'keyPrefix' => 'test.com',
             'masterServers' => "127.0.0.1:11211",
             'slaveServers' => "127.0.0.1:11211",
         ),
         'db' => array(
             'class' => 'FDbConnection',
-            'connectionString' => "mysql:host=localhost;dbname=firefly;port=3306",
+            'connectionString' => "mysql:host=localhost;dbname=5azhaopin;port=3306",
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'Hello0617',
+            'password' => '',
             'charset' => 'UTF8',
-            'tablePrefix' => 'ff_',
+            'tablePrefix' => '5a_',
             'enableParamLogging' => YII_DEBUG,
             //'schemaCacheID' => 'cache',
             'schemaCachingDuration' => YII_DEBUG ? 0 : 1800,
             'slaves' => array(
                 array(
-                    'connectionString' => "mysql:host=localhost;dbname=firefly;port=3306",
+                    'connectionString' => "mysql:host=localhost;dbname=5azhaopin;port=3306",
                     'emulatePrepare' => true,
                     'username' => 'root',
-                    'password' => 'Hello0617',
+                    'password' => '',
                     'charset' => 'UTF8',
-                    'tablePrefix' => 'ff_',
+                    'tablePrefix' => '5a_',
                     'enableParamLogging' => YII_DEBUG,
                     'schemaCacheID' => 'cache',
                     'schemaCachingDuration' => 0,

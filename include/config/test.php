@@ -8,6 +8,8 @@ unset($_main['components']['cache']);
 unset($_main['components']['db']);
 return CMap::mergeArray($_main, array(
     'import' => array(
+        'application.models.*',
+        'application.components.*',
         'ext.yiidebugtb.*'
     ),
 
@@ -31,23 +33,23 @@ return CMap::mergeArray($_main, array(
         ),
         'db' => array(
             'class' => 'FDbConnection',
-            'connectionString' => "mysql:host=10.0.1.209;dbname=fireFly;port=3306",
+            'connectionString' => "mysql:host=localhost;dbname=5azhaopin;port=3306",
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'Hello0617',
+            'password' => '',
             'charset' => 'UTF8',
-            'tablePrefix' => 'ff_',
+            'tablePrefix' => '5a_',
             'enableParamLogging' => YII_DEBUG,
             //'schemaCacheID' => 'cache',
             'schemaCachingDuration' => FF_DEBUG ? 0 : 1800,
             'slaves' => array(
                 array(
-                    'connectionString' => "mysql:host=10.0.1.209;dbname=fireFly;port=3306",
+                    'connectionString' => "mysql:host=localhost;dbname=5azhaopin;port=3306",
                     'emulatePrepare' => true,
                     'username' => 'root',
-                    'password' => 'Hello0617',
+                    'password' => '',
                     'charset' => 'UTF8',
-                    'tablePrefix' => 'ff_',
+                    'tablePrefix' => '5a_',
                     'enableParamLogging' => YII_DEBUG,
                     'schemaCacheID' => 'cache',
                     'schemaCachingDuration' => 0,
